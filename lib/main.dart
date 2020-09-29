@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.teal
       ),
-      initialRoute: 'SignIn',
+      initialRoute: 'Home',
       routes: {
-        'SignIn':(context)=>SignInScreen(),
-        'SignUp': (context)=> SignUpScreen(),
-        'Home': (context)=> Homescreen(),
+       // 'SignIn':(context)=>SignInScreen(),
+        //'SignUp': (context)=> SignUpScreen(),
+        'Home': (context)=> HomeScreen(),
       },
     );
   }
